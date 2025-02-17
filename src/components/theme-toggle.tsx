@@ -14,14 +14,15 @@ export function ThemeToggle({ ...props }: ComponentPropsWithoutRef<typeof Button
 
   return (
     <Button
-      variant="outline"
+      variant="ghost"
       size="icon"
       onClick={handleThemeToggle}
       aria-label="Theme toggle"
       type="button"
       {...props}
     >
-      {resolvedTheme === "light" ? <Sun className="size-4" /> : <Moon className="size-4" />}
+      <Sun className="size-4 dark:hidden" />
+      <Moon className="size-4 hidden dark:block" />
     </Button>
   )
 }
