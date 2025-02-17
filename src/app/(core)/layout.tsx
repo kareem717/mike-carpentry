@@ -2,7 +2,7 @@ import { Footer } from "@/components/footer";
 import { NavBar } from "@/components/nav-bar";
 import { copy } from "@/lib/config/copy";
 
-export default function LandingLayout({
+export default function CoreLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

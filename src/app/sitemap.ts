@@ -10,5 +10,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 			url: `${BASE_URL}${redirects.home}`,
 			lastModified: new Date(),
 		},
+		{
+			url: `${BASE_URL}${redirects.legal.privacy}`,
+			lastModified: new Date(),
+		},
+		{
+			url: `${BASE_URL}${redirects.legal.terms}`,
+			lastModified: new Date(),
+		},
 	];
 }

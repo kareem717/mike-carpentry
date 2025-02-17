@@ -1,4 +1,4 @@
-import { LandingHeroConfig } from "@/app/(landing)/components/landing-hero";
+import { LandingHeroConfig } from "@/app/(core)/components/landing-hero";
 import { redirects } from "./redirects";
 
 type FooterConfig = {
