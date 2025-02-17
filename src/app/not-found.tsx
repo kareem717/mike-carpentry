@@ -17,7 +17,7 @@ export default function NotFound() {
         We couldn&#39;t find what you were looking for
       </p>
       <Link
-        href={redirects.home}
+        href={redirects.core.landing}
         className={cn(buttonVariants(), "px-8")}
       >
         Return to Home

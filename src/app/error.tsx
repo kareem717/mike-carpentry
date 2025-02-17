@@ -31,7 +31,7 @@ export default function Error({
           Retry
         </Button>
         <Link
-          href={redirects.home}
+          href={redirects.core.landing}
           className={cn(buttonVariants({ variant: "secondary" }), "w-full")}
         >
           Home

@@ -9,12 +9,20 @@ export interface NavMenuProps extends ComponentPropsWithoutRef<"nav"> {
 
 const navLinks = [
   {
-    href: redirects.home,
+    href: redirects.core.landing,
     label: "Home",
   },
   {
-    href: redirects.contact,
+    href: redirects.core.contact,
     label: "Contact",
+  },
+  {
+    href: redirects.core.about,
+    label: "About",
+  },
+  {
+    href: redirects.core.services,
+    label: "Services",
   },
 ]
 

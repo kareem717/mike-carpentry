@@ -7,7 +7,19 @@ const BASE_URL = env.NEXT_PUBLIC_APP_URL;
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	return [
 		{
-			url: `${BASE_URL}${redirects.home}`,
+			url: `${BASE_URL}${redirects.core.landing}`,
+			lastModified: new Date(),
+		},
+		{
+			url: `${BASE_URL}${redirects.core.about}`,
+			lastModified: new Date(),
+		},
+		{
+			url: `${BASE_URL}${redirects.core.services}`,
+			lastModified: new Date(),
+		},
+		{
+			url: `${BASE_URL}${redirects.core.contact}`,
 			lastModified: new Date(),
 		},
 		{

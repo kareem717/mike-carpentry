@@ -1,4 +1,4 @@
-import LandingHero from "./(landing)/components/landing-hero";
+import LandingHero from "./components/landing-hero";
 import { copy } from "@/lib/config/copy";
 
 export default async function Home() {

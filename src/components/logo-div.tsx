@@ -7,7 +7,7 @@ import { ComponentPropsWithoutRef } from "react";
 export function LogoDiv({ className, ...props }: Omit<ComponentPropsWithoutRef<typeof Link>, "href">) {
   return (
     <Link
-      href={redirects.home}
+      href={redirects.core.landing}
       prefetch
       className={cn("flex items-center justify-center", className)}
       {...props}

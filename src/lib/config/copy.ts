@@ -1,4 +1,4 @@
-import { LandingHeroConfig } from "@/app/(core)/components/landing-hero";
+import { LandingHeroConfig } from "@/app/(core)/(landing)/components/landing-hero";
 import { redirects } from "./redirects";
 
 type FooterConfig = {
@@ -13,8 +13,8 @@ const landing: {
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
 		cta: {
-			label: "Get Started",
-			href: redirects.home,
+			label: "Get a Free Quote",
+			href: redirects.core.contact,
 		},
 	},
 };
