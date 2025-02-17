@@ -1,4 +1,4 @@
-import LandingHero from "@/components/landing-hero";
+import LandingHero from "./components/landing-hero";
 import { NavBar } from "@/components/nav-bar";
 
 export default async function Home() {
