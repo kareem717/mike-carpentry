@@ -12,19 +12,19 @@ export default function CoreLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex flex-col">
-      <div className="w-full bg-background fixed top-0 left-0 right-0 z-50">
+    <div className="flex flex-col gap-4">
+      <div className="w-full bg-background fixed top-0 left-0 right-0 z-50 border-b">
         <header className="flex items-center h-24 max-w-screen-2xl mx-auto relative">
           <LogoDiv className="size-16" />
           <NavMenu direction="horizontal" className="absolute left-1/2 -translate-x-1/2" />
         </header>
       </div>
-      <main className="flex flex-col items-center justify-center h-screen">
+      <main className="flex flex-col items-center justify-center max-w-screen-2xl mx-auto">
         {children}
       </main>
-      <div className="w-full bg-background">
+      <div className="w-full bg-background border-t">
         <footer className="flex flex-col items-center justify-center min-h-40 max-w-screen-2xl mx-auto p-8 gap-4">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-16 md:gap-8 w-full">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-16 md:gap-8 w-full mb-8">
             <div className="flex flex-col items-start gap-2 w-full md:w-1/2">
               <LogoDiv />
               <p className="text-sm text-muted-foreground">{copy.footer.description}</p>
