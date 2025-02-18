@@ -1,10 +1,6 @@
 import { LandingHeroConfig } from "@/app/(core)/(landing)/components/landing-hero";
 import { redirects } from "./redirects";
 
-type FooterConfig = {
-	description: string;
-};
-
 const landing: {
 	hero: LandingHeroConfig;
 } = {
@@ -19,7 +15,7 @@ const landing: {
 	},
 };
 
-const footer: FooterConfig = {
+const footer = {
 	description:
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
 };
