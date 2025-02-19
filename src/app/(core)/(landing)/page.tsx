@@ -2,6 +2,7 @@ import LandingHero from "./components/landing-hero";
 import { copy } from "@/lib/config/copy";
 import { WhoWeAre } from "./components/who-we-are";
 import { FeaturedProducts } from "./components/featured-products";
+import { Locations } from "./components/locations";
 
 const featuredProducts = [
   {
@@ -37,7 +38,8 @@ export default async function LandingPage() {
       <div className="flex flex-col gap-24 max-w-screen-2xl mx-auto py-8 p-4 sm:py-auto sm:p-12 md:p-24">
         <WhoWeAre />
         <FeaturedProducts products={featuredProducts} />
-      </div>
+        <Locations />
+      </div>  
     </div>
   );
 }
