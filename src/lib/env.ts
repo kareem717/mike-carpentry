@@ -6,8 +6,6 @@ export const env = createEnv({
 		NODE_ENV: z
 			.enum(["development", "test", "production"])
 			.default("development"),
-		BEEHIIV_API_KEY: z.string().min(1),
-		BEEHIIV_PUBLICATION_ID: z.string().min(1),
 	},
 	client: {
 		NEXT_PUBLIC_APP_URL: z.string().url().min(1),

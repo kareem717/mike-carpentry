@@ -1,6 +1,5 @@
 import { Separator } from "@/components/ui/separator";
 import { copy } from "@/lib/config/copy";
-import { NewsletterSubscribeForm } from "./components/newsletter-subscribe-form";
 import { LogoDiv } from "@/components/logo-div";
 import { NavMenu } from "./components/nav-menu";
 import { redirects } from "@/lib/config/redirects";
@@ -23,17 +22,10 @@ export default function CoreLayout({
         {children}
       </main>
       <div className="w-full bg-background border-t">
-        <footer className="flex flex-col items-center justify-center min-h-40 max-w-screen-2xl mx-auto p-8 gap-4">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-16 md:gap-8 w-full mb-8">
-            <div className="flex flex-col items-start gap-2 w-full md:w-1/2">
-              <LogoDiv />
-              <p className="text-sm text-muted-foreground">{copy.footer.description}</p>
-            </div>
-            <div className="flex flex-col items-start gap-8 w-full md:w-1/2">
-              <h1 className="text-lg font-bold">Stay Updated</h1>
-              <p className="text-sm text-muted-foreground">Subscribe to our newsletter for exclusive offers and updates.</p>
-              <NewsletterSubscribeForm className="w-full" />
-            </div>
+        <footer className="flex flex-col justify-center min-h-40 max-w-screen-2xl mx-auto p-8 gap-4">
+          <div className="flex flex-col items-start gap-2 w-full md:w-1/2">
+            <LogoDiv />
+            <p className="text-sm text-muted-foreground">{copy.footer.description}</p>
           </div>
           <Separator />
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground w-full px-4">
