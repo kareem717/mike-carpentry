@@ -9,5 +9,6 @@ export const redirects = {
 		contact: "/contact",
 		about: "/about",
 		services: "/services",
+		locations: "/locations",
 	},
 };

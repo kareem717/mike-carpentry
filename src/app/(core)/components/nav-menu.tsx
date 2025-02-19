@@ -24,6 +24,10 @@ const navLinks = [
     href: redirects.core.services,
     label: "Services",
   },
+  {
+    href: redirects.core.locations,
+    label: "Locations",
+  },
 ]
 
 export function NavMenu({ className, direction = "horizontal", ...props }: NavMenuProps) {
