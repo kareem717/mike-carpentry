@@ -18,7 +18,7 @@ function ProductCard({ title, description, image, link }: ProductCardProps) {
     <div className="relative flex flex-col gap-4 rounded-lg overflow-hidden h-[300px] md:h-[400px]"  >
       <Image src={image} alt={title} width={100} height={100} className="w-full h-full object-cover" />
       <div className="absolute bottom-0 left-0 w-full p-4 flex flex-col gap-2">
-        <h2 className="text-2xl font-bold text-background">{title}</h2>
+        <h2 className="font-bold text-background">{title}</h2>
         <p className="text-background/80">{description}</p>
         <Link href={link} className={cn("w-full mt-2", buttonVariants({ size: "lg" }))}>View Product</Link>
       </div>

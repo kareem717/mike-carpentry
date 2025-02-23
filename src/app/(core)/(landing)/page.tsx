@@ -35,7 +35,7 @@ export default async function LandingPage() {
   return (
     <div className="flex flex-col">
       <LandingHero className="overflow-hidden" config={copy.landing.hero} />
-      <div className="flex flex-col gap-24 max-w-screen-2xl mx-auto py-8 p-4 sm:py-auto sm:p-12 md:p-24">
+      <div className="flex flex-col gap-24 container py-8 p-4 sm:py-auto sm:p-12 md:p-24">
         <WhoWeAre />
         <FeaturedProducts products={featuredProducts} />
         <Locations />

@@ -23,9 +23,9 @@ export default function Error({
   return (
     <div className="flex flex-col items-center gap-4 justify-center h-screen w-full p-4">
       <TriangleAlert className="size-20" />
-      <h2 className="text-2xl font-semibold">
+      <h1 className="font-semibold">
         {error.message || "Something went wrong!"}{" "}
-      </h2>
+      </h1>
       <div className="flex gap-4 w-full md:w-1/3 max-w-xs min-w-[200px]">
         <Button onClick={() => reset()} className="w-full">
           Retry

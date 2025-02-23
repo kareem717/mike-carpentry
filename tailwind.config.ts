@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import { fontFamily } from "tailwindcss/defaultTheme.js";
+import { fontFamily, width } from "tailwindcss/defaultTheme.js";
 import * as tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
@@ -10,6 +10,11 @@ export default {
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		container: {
+      center: true,
+			// Sets the max-width of the container
+			screens: ["1400px"],
+    },
 		extend: {
 			fontFamily: {
 				sans: ["var(--font-sans)", ...fontFamily.sans],
