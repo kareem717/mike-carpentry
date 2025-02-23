@@ -18,7 +18,7 @@ export default function CoreLayout({
           <NavMenu direction="horizontal" className="absolute left-1/2 -translate-x-1/2" />
         </header>
       </div>
-      <main className="flex flex-col items-center justify-center max-w-screen-2xl mx-auto">
+      <main className="flex flex-col items-center justify-center max-w-screen-2xl mx-auto mt-24">
         {children}
       </main>
       <div className="w-full bg-background border-t">
