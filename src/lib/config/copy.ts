@@ -60,7 +60,18 @@ const footer = {
 		"M.I.K.E. Carpentry is your trusted window and door specialist in the GTA. Licensed, insured, and committed to excellence in every project.",
 };
 
-const about = {
+type InfoPageConfig = {
+	header: {
+		title: string;
+		subtitle: string;
+	};
+	main: {
+		title: string;
+		description: string;
+	};
+};
+
+const about: InfoPageConfig = {
 	header: {
 		title: "About",
 		subtitle: "M.I.K.E. Carpentry",
@@ -75,7 +86,10 @@ const about = {
 	},
 };
 
-const services = {
+const services: {
+	installation: InfoPageConfig;
+	custom: InfoPageConfig;
+} = {
 	installation: {
 		header: {
 			title: "Professional Window & Door Installation",
@@ -113,6 +127,29 @@ const contact = {
 	},
 };
 
+const locations: InfoPageConfig = {
+	header: {
+		title: "Where We Work",
+		subtitle: "Serving the Greater Toronto Area",
+	},
+	main: {
+		title: "Our Service Areas",
+		description: `
+			We proudly serve residential and commercial clients throughout the Greater Toronto Area, including:
+
+			• Toronto and North York
+			• Mississauga and Brampton
+			• Oakville, Burlington, and Hamilton
+			• Vaughan, Richmond Hill, and Markham
+			• Scarborough and Pickering
+
+			Whether you're in the heart of downtown Toronto or in the surrounding suburbs, our team is ready to provide expert window and door services. We understand the unique architectural styles and building requirements across different GTA neighborhoods, ensuring compliance with local regulations and delivering solutions that match your area's character.
+
+			Not sure if you're within our service area? Contact us today - we're happy to discuss your project and provide more information about our coverage zones.
+		`,
+	},
+};
+
 export const copy = {
 	layout: {
 		footer,
@@ -122,5 +159,6 @@ export const copy = {
 		about,
 		contact,
 		services,
+		locations,
 	},
 };

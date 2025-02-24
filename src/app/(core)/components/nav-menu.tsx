@@ -23,6 +23,10 @@ const navLinks = [
     label: "About",
   },
   {
+    href: redirects.core.locations,
+    label: "Locations",
+  },
+  {
     label: "Services",
     items: [
       {
