@@ -1,9 +1,9 @@
 import { ImageDiv } from "@/components/image-div";
 import { copy } from "@/lib/config/copy";
 
-const { header, main } = copy.pages.locations;
+const { header, main } = copy.pages.services.installation;
 
-export default function LocationsPage() {
+export default function InstallationPage() {
   return (
     <div className="flex flex-col sm:gap-6 md:gap-10">
     <ImageDiv

@@ -1,9 +1,9 @@
 import { ImageDiv } from "@/components/image-div";
 import { copy } from "@/lib/config/copy";
 
-const { header, main } = copy.pages.locations;
+const { header, main } = copy.pages.services.custom;
 
-export default function LocationsPage() {
+export default function CustomDoorPage() {
   return (
     <div className="flex flex-col sm:gap-6 md:gap-10">
     <ImageDiv
