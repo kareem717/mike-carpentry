@@ -20,7 +20,25 @@ const footer = {
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
 };
 
+const about = {
+	header: {
+		title: "About",
+		subtitle: "M.I.K.E. Carpentry",
+	},
+	main: {
+		title: "Our Mission",
+		description: `
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+		`,
+	},
+};
+
 export const copy = {
-	landing,
 	footer,
+	pages: {
+		landing,
+		about,
+	},
 };
