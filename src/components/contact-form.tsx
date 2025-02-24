@@ -94,7 +94,7 @@ export function ContactForm({ className, onSubmit: onSubmitProp, ...props }: Con
             <FormItem>
               <FormLabel>Message</FormLabel>
               <FormControl>
-                <Textarea {...field} />
+                <Textarea {...field} className="min-h-40"/>
               </FormControl>
               <FormMessage />
             </FormItem>

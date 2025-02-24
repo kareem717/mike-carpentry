@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Adobe Illustrator 29.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="320px" height="320px" viewBox="0 0 320 320" style="enable-background:new 0 0 320 320;" xml:space="preserve">
+	 width="162px" height="333px" viewBox="0 0 162 333" style="enable-background:new 0 0 162 333;" xml:space="preserve">
 <style type="text/css">
-	.st0{font-family:'Geist-Black';}
-	.st1{font-size:127px;}
+	.st0{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
 </style>
-<text transform="matrix(1 0 0 1 100.3106 197.6558)" class="st0 st1">M</text>
+<g>
+	<g>
+		<g>
+			<path d="M136.05,284.95c-3.73,3.46-6.36,5.76-10.3,5.76c-5.92,0-8.77-10.37-8.77-52.99v-61.44c0-39.17,2.41-50.3,9.21-50.3
+				c3.51,0,6.58,1.92,9.65,4.61l1.75-18.82c-2.63-4.22-6.8-7.68-12.28-7.68c-15.13,0-22.36,22.66-22.36,104.06
+				c0,80.26,7.45,102.53,21.92,102.53c5.7,0,10.08-4.22,12.93-8.83L136.05,284.95z"/>
+			<path d="M76.75,23.09c-3.07,0-6.14,1.92-8.11,4.22l-5.48,16.13l-4.38-16.13c-1.97-2.3-5.04-4.22-8.33-4.22
+				c-3.29,0-6.36,2.3-8.55,4.61l-5.04,16.13l-4.6-18.05h-8.11v201.22h13.59V51.12c2.41-3.07,4.6-5.76,7.89-5.76
+				c3.73,0,5.48,3.84,5.48,11.14v170.5h13.37V50.73c2.19-3.07,4.6-5.38,7.67-5.38c3.95,0,5.7,3.84,5.7,11.14v170.5h13.59V66.86
+				C91.44,30.77,83.33,23.09,76.75,23.09z"/>
+		</g>
+	</g>
+</g>
+<rect x="9" y="9" class="st0" width="144" height="314"/>
 </svg>

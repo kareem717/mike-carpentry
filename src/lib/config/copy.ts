@@ -35,10 +35,18 @@ const about = {
 	},
 };
 
+const contact = {
+	header: {
+		title: "We'd Love to Talk",
+		subtitle: "Get in touch",
+	},
+};
+
 export const copy = {
 	footer,
 	pages: {
 		landing,
 		about,
+		contact
 	},
 };

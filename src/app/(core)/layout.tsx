@@ -14,7 +14,7 @@ export default function CoreLayout({
     <div className="flex flex-col gap-4 min-h-screen justify-between">
       <div className="w-full bg-background fixed top-0 left-0 right-0 z-50 border-b">
         <header className="flex items-center h-24 container">
-          <LogoDiv className="size-16" />
+          <LogoDiv className="size-6" />
           <NavMenu direction="horizontal" className="absolute left-1/2 -translate-x-1/2" />
         </header>
       </div>
