@@ -8,5 +8,9 @@ export const redirects = {
 		landing: "/",
 		contact: "/contact",
 		about: "/about",
+		services: {
+			installation: "/services/installation",
+			custom: "/services/custom",
+		},
 	},
 };

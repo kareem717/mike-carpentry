@@ -1,8 +1,16 @@
 import { LandingHeroConfig } from "@/app/(core)/(landing)/components/landing-hero";
 import { redirects } from "./redirects";
+import { ServiceCardProps } from "@/app/(core)/(landing)/components/services";
+import { TextBlockConfig } from "@/components/text-block";
 
+type TextBlock = Omit<TextBlockConfig, "tagline">;
 const landing: {
 	hero: LandingHeroConfig;
+	services: {
+		services: ServiceCardProps[];
+	} & TextBlock;
+	whoWeAre: TextBlock;
+	locations: TextBlock;
 } = {
 	hero: {
 		title: "Welcome to our website",
@@ -12,6 +20,35 @@ const landing: {
 			label: "Get a Free Quote",
 			href: redirects.core.contact,
 		},
+	},
+	services: {
+		title: "Our Services",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+		services: [
+			{
+				title: "Window & Door Installation",
+				description: "Complete",
+				image: "/assets/hero-image.jpg",
+				link: redirects.core.services.installation,
+			},
+			{
+				title: "Custom Doors",
+				description: "Product 3 description",
+				image: "/assets/hero-image.jpg",
+				link: redirects.core.services.custom,
+			},
+		],
+	},
+	whoWeAre: {
+		title: "M.I.K.E. Carpentry",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+	},
+	locations: {
+		title: "Who We Help",
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
 	},
 };
 
@@ -43,10 +80,12 @@ const contact = {
 };
 
 export const copy = {
-	footer,
+	layout: {
+		footer,
+	},
 	pages: {
 		landing,
 		about,
-		contact
+		contact,
 	},
 };
