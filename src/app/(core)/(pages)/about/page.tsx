@@ -3,7 +3,6 @@ import { copy } from "@/lib/config/copy"
 
 const { header, main } = copy.pages.about;
 
-
 export default function AboutPage() {
   return (
     <div className="flex flex-col sm:gap-6 md:gap-10">
